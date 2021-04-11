@@ -104,7 +104,7 @@ export class MusicDataService {
             );
           } else {
             return new Observable((o) => {
-              o.next([]); // return an empty array immediately to any subscribers
+              o.next([]); 
             });
           }
         })
@@ -132,11 +132,10 @@ export class MusicDataService {
             );
           } else {
             return new Observable((o) => {
-              o.next([]); // return an empty array immediately to any subscribers
+              o.next([]); 
             });
           }
         })
       );
   }
-  
 }
